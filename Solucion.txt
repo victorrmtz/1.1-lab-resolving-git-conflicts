@@ -1,0 +1,14 @@
+1. Creas la rama
+	git branch rama
+2. Vas a la rama creada
+	git checkout rama
+3. Pones el mismo archivo de texto y lo editas
+	nano Nuevop.txt
+4. Los comparas y te va ha dar un conflicto
+	git merge main
+4. Subes los nuevos cambios y archivos
+	git add .
+	git commit -am '[nombre car] Victor'
+	git push
+5. Te da un conflicto, con un nuevo comando, lo pegas y lo ejecutas.
+	git push --set-upstream origin rama
